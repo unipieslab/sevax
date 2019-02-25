@@ -27,7 +27,7 @@ The functions supported by our framework are the following:
  - Visualization of soft-error vulnerable areas: A Graphic tool built as an extension of the Rapidsmith Device.Explorer class reads the results from the two previous analysis steps and illustrates the vulnerable areas of the FPGA layout.
  - Placing a design with the simulated annealing placer SA Placer.
 
-More information can be found in the "Development of a soft error vulnerability analysis framework for FPGA devices" master thesis (download).
+More information can be found in the "Development of a soft error vulnerability analysis framework for FPGA devices" master thesis.
 
 ## Running the SEVAX framework
 
@@ -58,14 +58,14 @@ Below, two examples are provided. In the first example we run the entire flow fo
 Download the benchmarks.rar and extract them.
 Download the sevax.jar.
 Download the arch.xml.
-Type java -jar sevax.jar -p benchmarks/barrel64Ready -xml arch.xml -pm -pp -pr -ebd
+Type **java -jar sevax.jar -p benchmarks/barrel64Ready -xml arch.xml -pm -pp -pr -ebd**
 After the analysis you should have the same result with benchmarks/barrel64Ready_log.txt text file.
 Run the Graphic tool "/rapidSmith/unipi/sevax/analysis/SensitiveDeviceBrowser.java" from Eclipse to see the vulnerable areas of the FPGA layout.
 Choose the the benchmarks/barrel64Ready folder.
 
 **Example 2**
 
-Type java -jar sevax.jar -p benchmarks/barrel64 -xml arch.xml -pm -pp -sa -pr -ebd
+Type **java -jar sevax.jar -p benchmarks/barrel64 -xml arch.xml -pm -pp -sa -pr -ebd**
 After the analysis you should have the same result with benchmarks/barrel64Ready_log.txt text file.
 Run the Graphic tool "/rapidSmith/unipi/sevax/analysis/SensitiveDeviceBrowser.java" from Eclipse to see the vulnerable areas of the FPGA layout.
 Choose the the benchmarks/barrel64 .
