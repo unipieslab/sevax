@@ -69,3 +69,19 @@ Type **java -jar sevax.jar -p benchmarks/barrel64 -xml arch.xml -pm -pp -sa -pr 
 After the analysis you should have the same result with benchmarks/barrel64Ready_log.txt text file.
 Run the Graphic tool "/rapidSmith/unipi/sevax/analysis/SensitiveDeviceBrowser.java" from Eclipse to see the vulnerable areas of the FPGA layout.
 Choose the the benchmarks/barrel64 .
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/unipieslab/sevax/tags). 
+
+## Authors
+
+* **Aitzan Sari** -  [aitzans](https://github.com/aitzans)
+
+See also the list of [contributors](https://github.com/unipieslab/sevax/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
