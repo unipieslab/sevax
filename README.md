@@ -16,7 +16,7 @@
 
 The following figure depicts the main functions supported by the SEVAX (Soft Error Vulnerability Analysis framework for Xilinx FPGAs) framework. The user is free to run the entire flow and calculate the soft error vulnerability of the final FPGA design or run individual tools at the intermediate stages of the flow for an early sensitivity estimation of the design.
 
-
+![](https://github.com/unipieslab/sevax/blob/master/pics/flowjpg.jpg)
 
 The functions supported by our framework are the following:
 
