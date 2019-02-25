@@ -5,7 +5,7 @@
  - Windows Xp/Vista/7 or Linux
  - Xilinx Ise (version supported from Rapidsmith Framework)
  - JDK 1.6 or earlier
- - Rapidsmith Framework (installation instructions)
+ - Rapidsmith Framework ([installation instructions](http://rapidsmith.sourceforge.net/doc/TechReportAndDocumentation.htm))
  
 ### Steps for Installation
  - Make sure the Xilinx tools and JDK are on your PATH.
