@@ -36,18 +36,20 @@ SEVAX framework is organized into several packages (all packages are prefixed wi
 The user can run the tools of the framework from the user interface class (**userInterface.java**), which is located in the **unipi.sevax.userInterface** package or running the runnable Jar file **sevax.jar**.
 
 The arguments of the sevax.jar tool are the following: 
- -e             Epsilon value. Default 0.005
- -ebd         Ebd Analysis
- -h             Help.
- -l              Redirect Console to log file.
- -m            Moves per temperature multiplier. Default 10
- -p             The path of design.
- -pm          Post-Mapping Analysis
- -pp           Post-Placement Analysis
- -pr           Post-Routing Analysis
- -sa           Place with SA
- -ucf          Path of ucf file
- -xml          Path of xml file
+|Argument|Description  |
+|--|--|
+| -e |Epsilon value. Default 0.005  |
+| -ebd |Ebd Analysis  
+| -h | Help  
+| -l |Redirect Console to log file  
+| -m |Moves per temperature multiplier. Default 10  
+| -p |The path of design  
+| -pm |Post-Mapping Analysis  
+| -pp |Post-Placement Analysis  
+| -pr |Post-Routing Analysis
+| -sa |Place with SA
+| -ucf |Path of ucf file
+| -xml |Path of xml file  
 
 For example you could type: "java -jar sevax.jar -p DesignDirectory -xml sensitiveBits.xml -pm -pp" for Post-Mapping and Post-Placement analysis.
 
@@ -83,3 +85,5 @@ See also the list of [contributors](https://github.com/unipieslab/sevax/contribu
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
