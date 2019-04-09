@@ -80,6 +80,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Aitzan Sari** -  [aitzans](https://github.com/aitzans)
+* **Dimitris Agiakatsikas** -  [agiakatsikas](https://github.com/agiakatsikas)
 
 See also the list of [contributors](https://github.com/unipieslab/sevax/contributors) who participated in this project.
 
